@@ -21,7 +21,7 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config user.name "GitHub Action"
+          git config user.name "Jahavdu"
           git config user.email "action@github.com"
           git add .
           git commit -m "Daily update" || exit 0
